@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
       document.querySelector("anni").textContent = `${(yourDate.getDate()>9)?yourDate.getDate():"0"+yourDate.getDate()}-${(yourDate.getMonth()>8)?(yourDate.getMonth()+1):"0"+(yourDate.getMonth()+1)}-${yourDate.getFullYear()}`;
       
-      document.querySelector("date").textContent = "😋 DÍNH NHAU " + Math.floor( Math.floor((new Date() - yourDate) / 1000) / 60 / 60 / 24)+" NGÀY RÒI Á 😋";
+      document.querySelector("date").textContent = "😋 Dính nhau " + Math.floor( Math.floor((new Date() - yourDate) / 1000) / 60 / 60 / 24)+" ngày ròi á 😋";
 
       function olock() {
             var today = new Date(),

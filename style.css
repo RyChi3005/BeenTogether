@@ -8,7 +8,7 @@ img {max-width: 100%;}
 
 body {
       display: grid;
-      font-family: "Comic Sans MS", cursive;
+      font-family: "Pacifico";
       grid-template-columns: repeat(12, 1fr);
       grid-auto-rows: minmax(auto, auto);
       color: #3d3935;
@@ -128,7 +128,7 @@ footer {
       opacity: .4;
       left: 50%;
       transform: translateX(-50%);
-      top: 73%;
+      top: calc(50% - 50vh);
 }    
 
 #mask {
