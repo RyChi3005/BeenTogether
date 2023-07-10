@@ -127,8 +127,7 @@ footer {
       z-index: 1000;
       opacity: .4;
       left: 50%;
-      transform: translateX(-50%);
-      top: calc(50% - 50vh);
+      top: 100%;
 }    
 
 #mask {
