@@ -120,15 +120,16 @@ footer {
       font-size: 1.6rem;
       font-weight: lighter;
       margin-top: 1.2rem;
-    }
+}
 
 #music {
-      position: relative;
+      position: fixed;
       z-index: 1000;
       opacity: .4;
-      left: 57.5%;
-      transform: translateX(57.5%);          
-}
+      left: 50%;
+      transform: translateX(-50%);
+      top: 73%;
+}    
 
 #mask {
       position: fixed;
